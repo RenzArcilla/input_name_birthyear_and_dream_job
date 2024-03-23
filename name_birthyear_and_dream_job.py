@@ -1,3 +1,4 @@
+from tkinter import *
 # pseudocode
 
 # ask user to input name
@@ -13,4 +14,8 @@ user_dream_job = input("Please enter your dream job: ")
 user_name_and_birthyer = f"{user_name} ({user_birth_year})"
 
 # create window
+window = Tk()
+window.title("FUTURE CAREER")
+window.geometry("900x300")
+
 # display name, birthyear, and dreamjob in window
