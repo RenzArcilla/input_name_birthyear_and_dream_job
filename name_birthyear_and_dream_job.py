@@ -10,5 +10,7 @@ user_birth_year = input("Please enter your birth year: ")
 user_dream_job = input("Please enter your dream job: ")
 
 # merge name and birth year into 1 string
+user_name_and_birthyer = f"{user_name} ({user_birth_year})"
+
 # create window
 # display name, birthyear, and dreamjob in window
