@@ -19,3 +19,6 @@ window.title("FUTURE CAREER")
 window.geometry("900x300")
 
 # display name, birthyear, and dreamjob in window
+label = Label(window, text = ("\n" * 3) + user_name_and_birthyer + "\n" + "<< " + user_dream_job  + " >>", font=("Aharoni", 20, "bold"))
+label.pack()
+window.mainloop()
